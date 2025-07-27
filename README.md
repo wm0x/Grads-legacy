@@ -1,9 +1,5 @@
 # Grad Projects Portal
 
-A Laravel 10 application with Blade‑based authentication (via Breeze).  
-For Front‑end developers clone this repo and start working on views immediately—no database or backend setup required.
-
-
 ---
 
 ## 📦 Prerequisites
