@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
+}
+
+@keyframes line-shadow {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% -100%; }
+}
+
+@keyframes shine {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.animate-line-shadow {
+  animation: line-shadow 15s linear infinite;
+}
+
+.animate-shine {
+  animation: shine var(--duration) infinite linear;
+}
+
+.animate-float { 
+  animation: float 8s ease-in-out infinite; 
+}
+
+.animate-float-delay { 
+  animation: float 8s ease-in-out infinite 2s; 
+}
