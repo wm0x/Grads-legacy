@@ -9,13 +9,13 @@ const projects = [
   {
     title: "Sign In or Register",
     description:
-      "Log in or create your account to access Grads AI tools. This allows us to save your progress and personalize your experience.",
+      "Log in or create your account to access Gradly AI tools. This allows us to save your progress and personalize your experience.",
     link: "/auth/login",
   },
   {
     title: "Generate Your Project",
     description:
-      "Enter your project idea or topic. Grads AI will create a detailed outline and structure tailored to your needs in seconds.",
+      "Enter your project idea or topic. Gradly AI will create a detailed outline and structure tailored to your needs in seconds.",
     link: "/auth/login",
   },
   {
@@ -43,7 +43,7 @@ const projects = [
             className: "text-white",
         },
         {
-            text: "Grads",
+            text: "Gradly",
             className: "text-green-500 ",
         },
         {
@@ -73,7 +73,7 @@ const projects = [
                     >
                         <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 bg-gradient-to-r from-teal-400/20 to-blue-500/20 transition-opacity duration-300" />
                         <span className="relative z-10 text-sm font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal-300 to-blue-400 flex items-center">
-                            AI with Grads
+                            AI with Gradly
                         </span>
                     </motion.div>
                 </div>

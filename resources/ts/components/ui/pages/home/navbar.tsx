@@ -21,12 +21,12 @@ function NavbarDemo() {
       link: "#features",
     },
     {
-      name: "Grads AI",
-      link: "#grads-ai",
+      name: "Gradly AI",
+      link: "#Gradly-ai",
     },
     {
-      name: "why grads",
-      link: "#why-grads",
+      name: "why Gradly",
+      link: "#why-Gradly",
     },
   ];
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

@@ -233,7 +233,7 @@ export const NavbarLogo = () => {
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
       dir="rtl"
     >
-      <span className=" text-white text-xl font-bold">Grads Legacy</span> {" - "}
+      <span className=" text-white text-xl font-bold ml-2">Gradly</span> {"  "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

@@ -54,7 +54,7 @@ const features = [
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full filter blur-3xl opacity-20 animate-float-delay"></div>
       </div>
 
-        <h2 className="text-4xl md:text-6xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-800 text-center mx-auto pb-20 pt-20 mb-10 overflow-visible">
+        <h2 className="text-4xl md:text-7xl font-bold tracking-tight bg-clip-text text-transparent bg-white text-center mx-auto pb-20 mb-10 overflow-visible">
           
 
           Features

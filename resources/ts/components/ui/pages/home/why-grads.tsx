@@ -15,7 +15,7 @@ const features = [
     Icon: FileTextIcon,
     name: "Manage Graduation Projects",
     description:
-      "Grads helps universities and students manage, track, and evaluate graduation projects efficiently.",
+      "Gradly helps universities and students manage, track, and evaluate graduation projects efficiently.",
     href: "/",
     cta: "learn more",
     background: (
@@ -31,7 +31,7 @@ const features = [
   Icon: ShieldCheckIcon,
   name: "Secure & Private",
   description:
-    "Grads ensures the security and privacy of all project data, protecting students and university systems from unauthorized access.",
+    "Gradly ensures the security and privacy of all project data, protecting students and university systems from unauthorized access.",
   href: "/security",
   cta: "learn more",
   background: (
@@ -108,7 +108,7 @@ export function BentoDemo() {
           className="mb-8"
         >
           <h2 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 mb-6">
-            Why Use <span className="text-green-400">Grads</span>?
+            Why Use <span className="text-green-400">Gradly</span>?
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Revolutionizing academic collaboration with cutting-edge technology and 

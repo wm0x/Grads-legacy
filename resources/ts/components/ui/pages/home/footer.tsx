@@ -26,7 +26,7 @@ function Footer() {
                   />
                 </svg>
                 <span className="text-2xl font-bold text-white">
-                  Grads
+                  Gradly
                 </span>
               </div>
               <p className="text-gray-300 max-w-xs text-center md:text-left leading-relaxed">
@@ -42,10 +42,10 @@ function Footer() {
                 Features
               </a>
               <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
-                Grads Ai
+                Gradly Ai
               </a>
               <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
-                Why Grads
+                Why Gradly
               </a>
             </div>
           </div>
@@ -59,7 +59,7 @@ function Footer() {
         </div>
 
         <div className="mt-16 pt-8 text-center text-sm text-white/50 border-t border-white/10">
-          Grads © {new Date().getFullYear()} { /* this for get the year from date */} <br/>
+          Gradly © {new Date().getFullYear()} { /* this for get the year from date */} <br/>
           All rights reserved
         </div>
       </footer>
