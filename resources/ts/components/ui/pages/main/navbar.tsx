@@ -26,7 +26,11 @@ function NavbarDemo() {
     },
     {
       name: "why Gradly",
-      link: "#why-Gradly",
+      link: "#why-grads",
+    },
+        {
+      name: "projects",
+      link: "/dashboard/projects",
     },
   ];
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

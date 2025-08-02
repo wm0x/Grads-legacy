@@ -22,8 +22,8 @@ export function Hero() {
                 <div className="pointer-events-none absolute inset-0 flex items-center justify-center  [mask-image:radial-gradient(ellipse_at_center,transparent_100%,black)] bg-[#1d1d1d]"></div>
                 <div className="absolute h-screen w-full rounded-md flex md:items-center md:justify-center bg-transparent antialiased bg-grid-white/[0.02] overflow-hidden">
                     <Spotlight />
-                    <div className="p-4 max-w-7xl mx-auto relative z-10 w-full pt-20 md:pt-0">
-                        <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-[#ffffff] via-[#ffffff] to-[#ffffff]">
+                    <div className="p-4 max-w-7xl mx-auto relative z-10 w-full pt-20 md:pt-0 translate-y-32 md:translate-y-0">
+                        <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-[#ffffff] via-[#ffffff] to-[#ffffff] ">
                             All Graduation Projects <br />
                         </h1>
                         <PointerHighlight> In One Place </PointerHighlight>

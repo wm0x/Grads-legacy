@@ -1,17 +1,17 @@
 import React from "react";
-import { ScrollProgress } from "../ui/pages/home/scroll-progress";
-import NavbarDemo from "../ui/pages/home/navbar";
-import { Hero } from "../ui/pages/home/hero";
-import { StickyBanner } from "../ui/pages/home/sticky-msg";
-import { HeroVideoDialog } from "../ui/pages/home/hero-vid";
-import { FeaturesSectionDemo } from "../ui/pages/home/feature";
-import Ai from "../ui/pages/home/ai";
-import { BentoDemo } from "../ui/pages/home/why-grads";
-import Footer from "../ui/pages/home/footer";
+import { ScrollProgress } from "../ui/pages/main/scroll-progress";
+import NavbarDemo from "../ui/pages/main/navbar";
+import { Hero } from "../ui/pages/main/hero";
+import { StickyBanner } from "../ui/pages/main/sticky-msg";
+import { HeroVideoDialog } from "../ui/pages/main/hero-vid";
+import { FeaturesSectionDemo } from "../ui/pages/main/feature";
+import Ai from "../ui/pages/main/ai";
+import { BentoDemo } from "../ui/pages/main/why-grads";
+import Footer from "../ui/pages/main/footer";
 
 export default function home() {
     return (
-        <div className="flex flex-col min-h-screen font-[var(--font-geist-sans)] bg-black/95">
+        <div className="flex flex-col min-h-screen font-[var(--font-geist-sans)] bg-black/95 scroll-smooth">
             <StickyBanner className="bg-gradient-to-b from-teal-950 to-green-900">
                 <p className="mx-0 max-w-[90%] text-white drop-shadow-md text-center">
                     The beta version of the platform has officially launched 🚀
@@ -40,18 +40,18 @@ export default function home() {
                     thumbnailAlt="Hero Video"
                 />
             </div>
-            <div className="pb-32">
+            <div className="scroll-mt-32 pb-32" id="features">
                 <FeaturesSectionDemo />
             </div>
-            <div className="overflow-visible">
+            <div className="overflow-visible scroll-mt-28" id="Gradly-ai">
                 <Ai></Ai>
             </div>
-            <div>
+            <div id="why-grads" className="scroll-mt-32">
                 <BentoDemo />
             </div>
-                  <footer className="p-32">
-        <Footer />
-      </footer>
+            <footer className="p-32">
+                <Footer />
+            </footer>
         </div>
     );
 }

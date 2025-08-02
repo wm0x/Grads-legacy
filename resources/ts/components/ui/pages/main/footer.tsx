@@ -38,13 +38,13 @@ function Footer() {
           <div className="flex flex-col items-center gap-4">
             <h4 className="text-sm font-semibold text-white/80 tracking-wider mb-3 mr-3">EXPLORE</h4>
             <div className="flex flex-col gap-3">
-              <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+              <a href="#features" className="text-white/70 hover:text-white text-sm transition-colors">
                 Features
               </a>
-              <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+              <a href="#Gradly-ai" className="text-white/70 hover:text-white text-sm transition-colors">
                 Gradly Ai
               </a>
-              <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+              <a href="#why-grads" className="text-white/70 hover:text-white text-sm transition-colors">
                 Why Gradly
               </a>
             </div>

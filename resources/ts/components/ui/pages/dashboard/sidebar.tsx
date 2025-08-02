@@ -3,25 +3,23 @@ import React, { useState } from "react";
 import { Sidebar, SidebarBody, SidebarLink } from "../../../ui/sidebar";
 import {
   IconArrowLeft,
-  IconSettings,
-  IconUserBolt,
 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import { cn } from "../../../lib/utils";
-import { CiHome } from "react-icons/ci";
 import { Outlet } from "react-router-dom";
 import { GoProjectRoadmap } from "react-icons/go";
 import { AuroraText } from "../auth/login/ui/aurora-text";
 import { GiArtificialIntelligence } from "react-icons/gi";
+import { MdDashboard } from "react-icons/md";
 
 
 
 export function SidebarDemo() {
   const links = [
     {
-      label: "Home",
-      href: "/dashboard/home",
-      icon: <CiHome className="h-5 w-5 shrink-0 text-green-700 ml-1" />,
+      label: "Dashboard",
+      href: "/dashboard",
+      icon: <MdDashboard className="h-5 w-5 shrink-0 text-green-700 ml-1" />,
     },
     {
       label: "Projects",
@@ -33,12 +31,12 @@ export function SidebarDemo() {
     {
       label: "Gradly AI",
       href: "/dashboard/ai",
-      icon: <GiArtificialIntelligence className="h-5 w-5 shrink-0 text-teal-700 ml-1" />,
+      icon: <GiArtificialIntelligence className="h-5 w-5 shrink-0 text-green-700 ml-1" />,
     },
     {
       label: "Logout",
       href: "#",
-      icon: <IconArrowLeft className="h-5 w-5 shrink-0 text-white ml-1 border rounded-full bg-red-500" />,
+      icon: <IconArrowLeft className="h-5 w-5 shrink-0 text-red-100 ml-1 border border-red-400 rounded-full bg-red-700" />,
     },
   ];
 
@@ -47,12 +45,12 @@ export function SidebarDemo() {
   return (
     <div
       className={cn(
-        "mx-auto flex w-full flex-1 flex-col overflow-hidden rounded-md border md:flex-row border-neutral-700 bg-neutral-800",
+        "mx-auto flex w-full flex-1 flex-col overflow-hidden  border md:flex-row border-neutral-700 bg-black",
         "h-screen"
       )}
     >
       <Sidebar open={open} setOpen={setOpen}>
-        <SidebarBody className="justify-between gap-10 ">
+        <SidebarBody className="justify-between gap-10 bg-black/80 ">
           <div className="flex flex-1 flex-col overflow-x-hidden overflow-y-auto ">
             {open ? <Logo /> : <LogoIcon />}
             <div className="mt-4 flex flex-col gap-2 border-t-2 border-white/10">
@@ -82,7 +80,7 @@ export function SidebarDemo() {
         </SidebarBody>
       </Sidebar>
 
-      <div className="flex flex-1 overflow-auto w-full rounded-l-2xl">
+      <div className="flex flex-1 overflow-auto w-full rounded-l-2xl bg-[#0e0e0e]">
         <Outlet />
       </div>
     </div>

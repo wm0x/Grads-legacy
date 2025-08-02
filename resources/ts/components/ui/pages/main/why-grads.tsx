@@ -21,8 +21,8 @@ const features = [
     background: (
       <img
         className="absolute -right-20 -top-20 opacity-60"
-        src="/images/projects.png"
-        alt="Projects background"
+        src="/images/Manage.png"
+        alt="Manage img"
       />
     ),
     className: "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3",
@@ -53,8 +53,8 @@ const features = [
     background: (
       <img
         className="absolute -right-20 -top-20 opacity-60"
-        src="/images/files.png"
-        alt="Files background"
+        src="/images/Submission.png"
+        alt="Submission"
       />
     ),
     className: "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3",
@@ -70,8 +70,8 @@ const features = [
     background: (
       <img
         className="absolute -right-20 -top-20 opacity-60"
-        src="/images/languages.png"
-        alt="Languages background"
+        src="/images/Platform.png"
+        alt="Platform background"
       />
     ),
     className: "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4",
@@ -87,8 +87,8 @@ const features = [
     background: (
       <img
         className="absolute -right-20 -top-20 opacity-60"
-        src="/images/notify.png"
-        alt="Notify background"
+        src="/images/Notifications.png"
+        alt="Notifications img"
       />
     ),
     className: "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4",
@@ -99,7 +99,6 @@ const features = [
 export function BentoDemo() {
   return (
     <div className="relative h-full w-full">
-      {/* animated */}
       <div className="text-center px-4 py-16 md:py-24">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -117,7 +116,6 @@ export function BentoDemo() {
         </motion.div>
       </div>
 
-      {/* cards */}
       <BentoGrid className="lg:grid-rows-3 h-full px-32 pb-32">
         {features.map((feature) => (
           <BentoCard key={feature.name} {...feature} />
